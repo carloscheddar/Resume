@@ -1,0 +1,149 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.0 (5/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+% \addbibresource{bibliography.bib} % Specify the bibliography file to include publications
+
+\begin{document}
+
+\header{Carlos}{FelicianoBarba}{Software Developer} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{address}\small
+Calle Holy Cross 374
+Reparto Universitario
+San Juan, PR 00926
+\section{contact}
+\footnotesize cel: +1 (787) 662-4474
+\href{mailto:c.feliciano2009@gmail.com}{\footnotesize c.feliciano2009@gmail.com}
+\href{https://github.com/carloscheddar}{\footnotesize github.com/carloscheddar}
+% \section{languages}
+% english \& spanish
+% \section{programming}
+% {\color{red} $\varheartsuit$} JavaScript
+% Python, C++, PHP
+% CSS3 \& HTML5
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%	Profile
+%----------------------------------------------------------------------------------------
+
+\section{profile}
+
+%------------------------------------------------
+\begin{itemize}\small
+\item Proficient use of Git, Github, Heroku, Openshift, Azure and other Cloud
+Platforms
+\item Experience with Backend Web Development including Ruby on Rails and Django
+\item Proficient programmer in Python, C++, JavaScript, Ruby, SQL, Scheme
+\item Experience installing hardware and software
+\item Skilled with UNIX based systems
+\end{itemize}
+%------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	Experience
+%----------------------------------------------------------------------------------------
+
+\section{experience}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{\footnotesize October 2013}
+{Ride Surfing at Startup Weekend}
+{San Juan, Puerto Rico}
+{\small \emph{1\textsuperscript{st} Place} \\
+\small My team participated and won the San Juan Startup Weekend by making Ride Surfing, an open source
+carpooling platform. \\
+\small {\bf Demo:} \href{http://ridesurfing.herokuapp.com/}{http://ridesurfing.herokuapp.com/}}
+%------------------------------------------------
+\entry
+{\footnotesize Summer 2013}
+{Descartes-BI at PR Office of Budget and Management}
+{San Juan, Puerto Rico}
+{\small \emph{Backend Web Developer Intern} \\
+\small Connected the LIBRE API to Descartes-BI by adding functionality of RESTful queries that were used to extract and graph government data.\\
+\small {\bf Source:} \href{https://github.com/rosarior/descartes-bi}{github.com/rosarior/descartes-bi}}
+%------------------------------------------------
+\entry
+{\footnotesize May-June 2013}
+{Databases project at University of Puerto Rico}
+{San Juan, Puerto Rico}
+{\small \emph{Independent Web Developer} \\
+\small Created a website where we modified open source games to dynamically save
+data in a PostgreSQL database using Ruby on Rails and deployed on Heroku \\
+\small {\bf Source:} \href{https://github.com/carloscheddar/WebGame}{github.com/carloscheddar/WebGame}}
+%------------------------------------------------
+\entry
+{\footnotesize Jan 2012-2013}
+{Computer Research Lab at University of Puerto Rico}
+{San Juan, Puerto Rico}
+{\small \emph{Software Developer} \\
+\small Parallelized algorithms using Cilk to increase preformance of a linear system solver}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	Technical Experience
+%----------------------------------------------------------------------------------------
+
+\section{technical experience}
+\begin{itemize}\small
+\item Developed the backend of several websites using Ruby on Rails and Django
+\item Developed a Distributed File System for a class project in Python and MySQL
+\item Open-Sourced scripts \& tools mostly in Python, Bash, C++ and Ruby
+\end{itemize}
+
+
+%----------------------------------------------------------------------------------------
+%	Languages, Frameworks & Tools SECTION
+%----------------------------------------------------------------------------------------
+
+\section{languages, frameworks \& tools}
+
+\setlength{\tabcolsep}{20pt}
+
+\small
+\begin{tabular}{lllll}
+    Python   & Ruby           & Node.js    & HTML   & Angular.js \\
+    Django   & Ruby on Rails  & Git        & CSS    & Sails.js   \\
+    mongoDB  & C/C++          & JavaScript & jQuery & PostgreSQL
+\end{tabular}
+
+% ---------------------------------------------------------------------------------------
+% Recent Activities SECTION
+%----------------------------------------------------------------------------------------
+
+\section{recent activities}
+
+\begin{itemize}\small
+\item Attended the Puerto Rico TechSummit where I created Receptionist, a web app that lets businesses display their schedules and users can make bookings based on the business calendar. (June 2013)
+\item Took part of HackPR, Mayagüez, Puerto Rico's Second Official Hackathon (March 2013)
+\end{itemize}
+
+\end{document}
